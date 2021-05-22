@@ -58,6 +58,59 @@ Steps:
  <img src="4.png" alt="alt text">
 </p>
 
+## 4. Big Picture
+- In this section we will compare between ground truth images and the result of k-means and the spectral clustering techniques.
+
+### A. K-means vs Ground Truth
+- Select a set of five images and display their corresponding ground truth against your segmentation results using K-means at K=5.
+
+<p align="center">
+<img src="5.png" >
+<p align="center">Segmentation results for random image using K-means at k = 5.</p> 
+<img src="6.png" alt="alt text">
+<p align="center">Image corresponding ground truth.</p>
+</p>
+
+<p align="center">
+<img src="7.png" >
+<p align="center">Segmentation results for random image using K-means at k = 5.</p> 
+<img src="8.png" alt="alt text">
+<p align="center">Image corresponding ground truth.</p>
+</p>
+
+### B. Spectral Clustering vs Real image.
+- Select the five images and display their corresponding ground truth against your segmentation results using Normalized-cut for the 5- NN graph, at K=5.
+<p align="center">
+<img src="9.png" >
+<p align="center">Real image</p> 
+<img src="11.png" alt="alt text">
+<p align="center">Segmentation results for random image using Normalized-cut for the 5- NN graph, at k = 5. With 10% of it's orginal size</p>
+<img src="10.png" alt="alt text">
+<p align="center">Segmentation results for random image using Normalized-cut for the 5- NN graph, at k = 5. With 10% of it's orginal size</p>
+</p>
+
+### C. Spectral Clustering vs K-means vs Real image.
+- Select five images and contrast your segmentation results using Normalized-cut for the 5-NN graph, at K=5 versus using K- means at K=5.
+<p align="center">
+<img src="9.png" >
+<p align="center">Random Real image</p> 
+<img src="12.png" alt="alt text">
+<p align="center">Segmentation results for random image using Normalized-cut for the 5- NN graph, at k = 5. With 11% of it's orginal size</p>
+<img src="13.png" alt="alt text">
+<p align="center">Segmentation results for random image using K-means at k = 5.</p>
+</p>
+
+<p align="center">
+<img src="14.png" >
+<p align="center">Random Real image</p> 
+<img src="15.png" alt="alt text">
+<p align="center">Segmentation results for random image using Normalized-cut for the 5- NN graph, at k = 5. With 12% of it's orginal size</p>
+<img src="16.png" alt="alt text">
+<p align="center">Segmentation results for random image using K-means at k = 5.</p>
+</p
+
+## 5. Extra
+
 <p align="center">
 <img src="1.png" >
 <img src="2.png" alt="alt text">
