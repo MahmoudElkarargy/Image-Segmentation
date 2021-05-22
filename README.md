@@ -63,56 +63,65 @@ Steps:
 
 ### A. K-means vs Ground Truth
 - Select a set of five images and display their corresponding ground truth against your segmentation results using K-means at K=5.
-
 <p align="center">
 <img src="5.png" >
 <p align="center">Segmentation results for random image using K-means at k = 5.</p> 
-<img src="6.png" alt="alt text">
-<p align="center">Image corresponding ground truth.</p>
-</p>
-
-<p align="center">
-<img src="7.png" >
-<p align="center">Segmentation results for random image using K-means at k = 5.</p> 
-<img src="8.png" alt="alt text">
+<img src="6.png">
 <p align="center">Image corresponding ground truth.</p>
 </p>
 
 ### B. Spectral Clustering vs Real image.
-- Select the five images and display their corresponding ground truth against your segmentation results using Normalized-cut for the 5- NN graph, at K=5.
 <p align="center">
-<img src="9.png" >
-<p align="center">Real image</p> 
-<img src="11.png" alt="alt text">
-<p align="center">Segmentation results for random image using Normalized-cut for the 5- NN graph, at k = 5. With 10% of it's orginal size</p>
-<img src="10.png" alt="alt text">
-<p align="center">Segmentation results for random image using Normalized-cut for the 5- NN graph, at k = 5. With 10% of it's orginal size</p>
+ <img src="9.png">
+ <p align="center">Real image</p> 
 </p>
+<p align="center">
+<img src="11.png" alt="alt text" height="250" width="380" >
+<img src="10.png" alt="alt text" height="250" width="380" >
+</p>
+<p align="center">Segmentation results for random image using Normalized-cut for the 5- NN graph, at k = 5.</p> 
+<p align="center">A - With 10% of it's orginal size.   ***   B - With 15% of it's orginal size</p> 
+
 
 ### C. Spectral Clustering vs K-means vs Real image.
 - Select five images and contrast your segmentation results using Normalized-cut for the 5-NN graph, at K=5 versus using K- means at K=5.
 <p align="center">
 <img src="9.png" >
 <p align="center">Random Real image</p> 
-<img src="12.png" alt="alt text">
-<p align="center">Segmentation results for random image using Normalized-cut for the 5- NN graph, at k = 5. With 11% of it's orginal size</p>
-<img src="13.png" alt="alt text">
-<p align="center">Segmentation results for random image using K-means at k = 5.</p>
-</p>
 
 <p align="center">
-<img src="14.png" >
-<p align="center">Random Real image</p> 
-<img src="15.png" alt="alt text">
-<p align="center">Segmentation results for random image using Normalized-cut for the 5- NN graph, at k = 5. With 12% of it's orginal size</p>
-<img src="16.png" alt="alt text">
-<p align="center">Segmentation results for random image using K-means at k = 5.</p>
-</p
+<img src="10.png" alt="alt text" height="250" width="380" >
+<img src="13.png" alt="alt text" height="250" width="380" >
+</p>
+<p align="center">Spectral Clustering vs K-means</p>
 
 ## 5. Extra
+- In the previous parts, we used the color features RGB. We did not encode the layout of the pixels. We want to modify that for K-means clustering to encode the spatial layout of the pixels.
+  - i. Suggest a way to modify the feature vector to include spatial layout.
+  - ii. Contrast the results you obtained in 4.a to the results you obtained by considering the spatial layout.
+```
+*** FOR IMAGE NB: 1 ***
+
+ ** Average fmeasure for each K **
+[0.82205757 0.58572982 0.4798646  0.40293263 0.33990403]
+ ** Average entropy for each K **
+[0.19845532 0.1867943  0.17868015 0.174505   0.17282233]
+```
 
 <p align="center">
-<img src="1.png" >
-<img src="2.png" alt="alt text">
-<p align="center">Some of the content in the Courses and Departments Table.</p>
+ <img src="20.png" alt="alt text">
+ <img src="21.png" alt="alt text">
+</p>
+
+```
+*** FOR IMAGE NB: 2 ***
+
+ ** Average fmeasure for each K **
+[0.77222293 0.68747015 0.53652423 0.4558225  0.38230512]
+ ** Average entropy for each K **
+[0.4075518  0.35545733 0.30010906 0.29462604 0.28558238]
+```
+<p align="center">
+ <img src="22.png" alt="alt text">
+ <img src="23.png" alt="alt text">
 </p>
