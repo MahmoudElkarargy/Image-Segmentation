@@ -97,8 +97,8 @@ Steps:
 
 ## 5. Extra
 - In the previous parts, we used the color features RGB. We did not encode the layout of the pixels. We want to modify that for K-means clustering to encode the spatial layout of the pixels.
-  - i. Suggest a way to modify the feature vector to include spatial layout.
-  - ii. Contrast the results you obtained in 4.a to the results you obtained by considering the spatial layout.
+  - i. Modify the feature vector to include spatial layout.
+  - ii. Contrast the results you obtained in 4.A to the results you obtained by considering the spatial layout.
 ```
 *** FOR IMAGE NB: 1 ***
 
@@ -125,3 +125,9 @@ Steps:
  <img src="22.png" alt="alt text">
  <img src="23.png" alt="alt text">
 </p>
+
+## GROUP TEAM
+  - Mahmoud Elkarargy
+  - Hossam Elkady
+  - Mariam Youssef
+  - Raneem Ahmed
