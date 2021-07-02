@@ -25,8 +25,8 @@ https://colab.research.google.com/drive/13EsG-s_NrtyYGUhKPM45AKwPfEHGYze5?usp=sh
 - display an image with its associated ground truth segmentation.
 - display an image with its associated ground truth contour segmentation.
 <p align="center">
-<img src="1.png" >
-<img src="2.png" alt="alt text">
+<img src="photos/1.png" >
+<img src="photos/2.png" alt="alt text">
 </p>
 
 ## 3. Segmentation using K-means
@@ -45,7 +45,7 @@ Steps:
 [0.40142372 0.34338245 0.32296092 0.31982477 0.28262732]
 ```
 <p align="center">
- <img src="3.png" alt="alt text">
+ <img src="photos/3.png" alt="alt text">
 </p>
 
 ```
@@ -55,7 +55,7 @@ Steps:
 [0.82823465 0.78931538 0.72647158 0.69597183 0.68292893]
 ```
 <p align="center">
- <img src="4.png" alt="alt text">
+ <img src="photos/4.png" alt="alt text">
 </p>
 
 ## 4. Big Picture
@@ -64,20 +64,20 @@ Steps:
 ### A. K-means vs Ground Truth
 - Select a set of five images and display their corresponding ground truth against your segmentation results using K-means at K=5.
 <p align="center">
-<img src="5.png" >
+<img src="photos/5.png" >
 <p align="center">Segmentation results for random image using K-means at k = 5.</p> 
-<img src="6.png">
+<img src="photos/6.png">
 <p align="center">Image corresponding ground truth.</p>
 </p>
 
 ### B. Spectral Clustering vs Real image.
 <p align="center">
- <img src="9.png">
+ <img src="photos/9.png">
  <p align="center">Real image</p> 
 </p>
 <p align="center">
-<img src="11.png" alt="alt text" height="250" width="380" >
-<img src="10.png" alt="alt text" height="250" width="380" >
+<img src="photos/11.png" alt="alt text" height="250" width="380" >
+<img src="photos/10.png" alt="alt text" height="250" width="380" >
 </p>
 <p align="center">Segmentation results for random image using Normalized-cut for the 5- NN graph, at k = 5.</p> 
 <p align="center">A - With 10% of it's orginal size.   ***   B - With 15% of it's orginal size</p> 
@@ -86,12 +86,12 @@ Steps:
 ### C. Spectral Clustering vs K-means vs Real image.
 - Select five images and contrast your segmentation results using Normalized-cut for the 5-NN graph, at K=5 versus using K- means at K=5.
 <p align="center">
-<img src="9.png" >
+<img src="photos/9.png" >
 <p align="center">Random Real image</p> 
 
 <p align="center">
-<img src="10.png" alt="alt text" height="250" width="380" >
-<img src="13.png" alt="alt text" height="250" width="380" >
+<img src="photos/10.png" alt="alt text" height="250" width="380" >
+<img src="photos/13.png" alt="alt text" height="250" width="380" >
 </p>
 <p align="center">Spectral Clustering vs K-means</p>
 
@@ -109,8 +109,8 @@ Steps:
 ```
 
 <p align="center">
- <img src="20.png" alt="alt text">
- <img src="21.png" alt="alt text">
+ <img src="photos/20.png" alt="alt text">
+ <img src="photos/21.png" alt="alt text">
 </p>
 
 ```
@@ -122,8 +122,8 @@ Steps:
 [0.4075518  0.35545733 0.30010906 0.29462604 0.28558238]
 ```
 <p align="center">
- <img src="22.png" alt="alt text">
- <img src="23.png" alt="alt text">
+ <img src="photos/22.png" alt="alt text">
+ <img src="photos/23.png" alt="alt text">
 </p>
 
 ## GROUP TEAM
